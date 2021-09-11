@@ -21,33 +21,8 @@ def cidade(city):
     humidity = soup.select('#wob_hm')[0].getText().strip()
     info = soup.select('#wob_dc')[0].getText().strip()
 
-    print(f'Localização: {location} \n'
-          f'Clima: {climate + "ºC"} - {info} \n'
-          f'Data: {time} \n'
-          f'Precipatação: {precipitation} \n'
-          f'Humidade: {humidity} \n')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    return f'Localização: {location} \n' \
+           f'Clima: {climate + "ºC"} - {info} \n' \
+           f'Data: {time} \n' \
+           f'Precipatação: {precipitation} \n' \
+           f'Humidade: {humidity} \n' \
