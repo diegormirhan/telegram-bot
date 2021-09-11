@@ -1,4 +1,4 @@
 import weather
 
-ct = 'ubatuba' + ' weather'
-print(weather.cidade(ct))
+print(weather.cidades('Ubatuba'))
+
