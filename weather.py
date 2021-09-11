@@ -29,7 +29,6 @@ def weather(city):
     print(info)
     print(weathers + "°C")
 
-
 cities = input("Enter the Name of City ->  ")
 cities = cities + " weather"
 weather(cities)
