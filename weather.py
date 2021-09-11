@@ -60,3 +60,6 @@ def cidades(cidade):
     else:
         # showing the error message
         return "Error in the HTTP request"
+
+
+print(cidades('Ubatuba'))
