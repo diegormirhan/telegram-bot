@@ -26,3 +26,4 @@ def cidade(city):
            f'Data: {time} \n' \
            f'Precipatação: {precipitation} \n' \
            f'Humidade: {humidity} \n' \
+
