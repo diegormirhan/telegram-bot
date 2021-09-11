@@ -33,7 +33,8 @@ def weather(city):
 cities = input("Enter the Name of City ->  ")
 cities = cities + " weather"
 weather(cities)
-print("Have a Nice Day:)")
+print("Have a Nice Day:)"
+
 
 
 
