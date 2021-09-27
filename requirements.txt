@@ -2,3 +2,5 @@ requests
 beautifulsoup4
 gunicorn
 django-heroku
+python-telegram-bot
+python-telegram-bot-raw
