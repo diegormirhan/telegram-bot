@@ -1,6 +1,7 @@
 from telegram.ext import Updater, CommandHandler
 from config import token
 
+
 def main():
     updater = Updater(token)
     dp = updater.dispatcher
